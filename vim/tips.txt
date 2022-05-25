@@ -1,0 +1,9 @@
+
+* Search and replace in files:
+1. Use Telescope Grep to find occurances.
+2. Press Ctrl-Q to add to quick-fix list.
+3. :cdo s/search/replace/g | update
+
+* Reverse all lines:
+:g/^/m0
+

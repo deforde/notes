@@ -1,0 +1,7 @@
+ulimit -c unlimited
+ulimit -a
+
+gdb /path/to/binary /path/to/core
+
+default core dir: /var/lib/apport/coredump/
+
