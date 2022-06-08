@@ -1,5 +1,6 @@
-* Cross-compiling C with zig-cc (see: https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html):
+# zig
 
+- Cross-compiling C with zig-cc (see: https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html):
 ```
 $ export CC="zig cc -target x86_64-windows-gnu"
 

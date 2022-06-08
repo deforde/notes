@@ -1,2 +1,0 @@
-python -m cProfile -s cumulative -m my_app
-

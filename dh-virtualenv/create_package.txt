@@ -1,2 +1,0 @@
-( deactivate ; dpkg-buildpackage -us -uc -b )
-

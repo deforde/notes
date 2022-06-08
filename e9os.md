@@ -1,3 +1,7 @@
+# make
+
+- Cookbook:
+```
 TARGET_EXEC := my_executable
 
 CFLAGS += -g -Wall -Wextra -Wpedantic -Werror
@@ -50,4 +54,8 @@ clean:
 # Makefiles. Initially, all the .d files will be missing, and we don't want those
 # errors to show up.
 -include $(DEPS)
+
+```
+
+#make #compilation #build-system #c #c++ #cpp
 
