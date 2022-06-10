@@ -14,7 +14,7 @@ source .venv/bin/activate
 mkdir ~/.virtualenvs
 cd ~/.virtualenvs
 python -m venv debugpy
-debugpy/bin/python -m pip install debugpy
+debugpy/bin/python -m pip install debugpy pytest
 ```
 
 #python #profiling #venv #virtual-environment
