@@ -9,5 +9,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+- Creating a virtual env for debugpy (required by nvim-dap-python):
+```
+mkdir ~/.virtualenvs
+cd ~/.virtualenvs
+python -m venv debugpy
+debugpy/bin/python -m pip install debugpy
+```
+
 #python #profiling #venv #virtual-environment
 
