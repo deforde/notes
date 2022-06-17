@@ -17,5 +17,11 @@ python -m venv debugpy
 debugpy/bin/python -m pip install debugpy pytest
 ```
 
+- Markdown viewer:
+```
+python -m pip install grip
+grip -b README.md
+```
+
 #python #profiling #venv #virtual-environment
 
