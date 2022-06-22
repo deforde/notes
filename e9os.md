@@ -1,5 +1,7 @@
 # make
 
+-------------------------------------------------------------------------------
+
 - Cookbook:
 ```
 TARGET_EXEC := my_executable
@@ -56,6 +58,52 @@ clean:
 -include $(DEPS)
 
 ```
+
+-------------------------------------------------------------------------------
+
+foo.h:
+```
+int foo(void);
+```
+foo.c:
+```
+int foo(void)
+{
+    return 0;
+}
+```
+main.c:
+```
+#include "foo.h"
+int main()
+{
+    foo();
+    return 0;
+}
+```
+Makefile:
+```
+.PHONY: all builddir libfoo objfoo exec clean
+
+all: clean builddir libfoo exec
+
+builddir:
+	mkdir build
+
+libfoo: objfoo
+	$(CC) -shared build/foo.o -o build/libfoo.so
+
+objfoo:
+	$(CC) -c foo.c -o build/foo.o
+
+exec:
+	$(CC) main.c build/libfoo.so -o build/app
+
+clean:
+	rm -rf build
+```
+
+-------------------------------------------------------------------------------
 
 #make #compilation #build-system #c #c++ #cpp
 
