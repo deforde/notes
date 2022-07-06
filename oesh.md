@@ -23,5 +23,8 @@ python -m pip install grip
 grip -b README.md
 ```
 
+- Example of basic setuptools config:
+https://github.com/pypa/sampleproject
+
 #python #profiling #venv #virtual-environment
 
