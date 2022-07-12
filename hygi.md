@@ -16,5 +16,9 @@ default core dir: `/var/lib/apport/coredump/`
 - Catch ubsan errors:
 `rbreak __ubsan_handle_*`
 
+- Print memory regions:
+`x/nfu addr`
+Where `n` is the count, `f` is the format (e.g. `u` for unsigned), and `u` is the size (`b`=byte, `h`=2xbytes, `w`=4xbytes, `g`=8xbytes).
+
 #gdb #asan #ubsan #coredumps #debugging #sanitisers
 
