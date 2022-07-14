@@ -6,8 +6,8 @@
 ```
 TARGET_EXEC := my_executable
 
-CFLAGS += -g -Wall -Wextra -Wpedantic -Werror
-# LDFLAGS +=
+CFLAGS += -g3 -Og -Wall -Wextra -Wpedantic -Werror -D_FORTIFY_SOURCE=2 -fsanitize=address
+LDFLAGS += -fsanitize=address
 
 BUILD_DIR := .
 SRC_DIRS := .
