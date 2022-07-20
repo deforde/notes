@@ -15,6 +15,8 @@ default core dir: `/var/lib/apport/coredump/`
 
 - Catch ubsan errors:
 `rbreak __ubsan_handle_*`
+or
+`rbreak __ubsan_on_*`
 
 - Print memory regions:
 `x/nfu addr`
