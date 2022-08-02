@@ -23,6 +23,16 @@ python -m pip install grip
 grip -b README.md
 ```
 
+- Build PyPi pacakage:
+```
+python3 setup.py sdist
+```
+
+- Install deps from requirements.txt:
+```
+python3 -m pip install -r requirements.txt
+```
+
 - Example of basic setuptools config:
 https://github.com/pypa/sampleproject
 
