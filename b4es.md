@@ -3,7 +3,7 @@
 - Script prologue:
 ```
 #!/usr/bin/env bash
-set -euo pipefile
+set -euo pipefail
 IFS=$'\n\t'
 ```
 
@@ -51,6 +51,11 @@ while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
     ;;
 esac; shift; done
 if [[ "$1" == '--' ]]; then shift; fi
+```
+
+- Get script dir:
+```
+DIR=${0%/*}
 ```
 
 #linux #shell #unix #scripting #text #text-manipulation #text-processing
