@@ -58,5 +58,13 @@ if [[ "$1" == '--' ]]; then shift; fi
 DIR=${0%/*}
 ```
 
+- Loop over arrays:
+```
+MY_ARRAY=('one' 'two')
+for ELEM in "${MY_ARRAY[@]}"; do
+  echo $ELEM
+done
+```
+
 #linux #shell #unix #scripting #text #text-manipulation #text-processing
 
