@@ -66,5 +66,25 @@ for ELEM in "${MY_ARRAY[@]}"; do
 done
 ```
 
+- Special args:
+```
+$#    # Number of args
+$*    # All pos args as single word
+$@    # All pos args as separate strings
+$1    # First arg
+$_    # Last arg of the previous command
+```
+
+- Counter:
+```
+file_cnt=0
+for file in $SRCDIR/*; do
+  file_cnt=$((file_cnt+1))
+done
+if [[ $file_cnt -ne 4 ]]; then
+  printf "Error! Expected 4 files, only %i found.\n" $file_cnt
+fi
+```
+
 #linux #shell #unix #scripting #text #text-manipulation #text-processing
 
