@@ -2,7 +2,7 @@
 
 To clean docker system:
 ```
-docker rmi -f <image-id>
+docker images | awk '/^[^REPOSITORY]/ {print $3}' | xargs docker rmi -f
 docker volume prune
 docker system prune
 ```
