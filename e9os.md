@@ -46,8 +46,8 @@ clean:
 	@rm -rf $(BUILD_DIR)
 
 compdb: clean
-	@bear -- $(MAKE) san && \
-	 mv compile_commands.json build
+	@bear -- $(MAKE) san
+	@mv compile_commands.json build
 
 valgrind: debug
 	@valgrind ./$(EXECUTABLE)
