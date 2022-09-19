@@ -21,7 +21,7 @@ LDFLAGS :=
 
 EXECUTABLE := $(BUILD_DIR)/$(TARGET_EXEC)
 
-all: CFLAGS += -O3 -NDEBUG
+all: CFLAGS += -O3 -DNDEBUG
 all: executable
 
 debug: CFLAGS += -g3 -D_FORTIFY_SOURCE=2
