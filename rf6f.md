@@ -78,6 +78,13 @@ export AR=$HOME'/tizen-studio/tools/arm-linux-gnueabi-gcc-9.2/bin/arm-linux-gnue
 
 -------------------------------------------------------------------------------
 
+- To specify custom LD\_LIBRARY\_PATH at compile-time:
+```
+-Wl,-rpath,/path/to/libs
+```
+
+-------------------------------------------------------------------------------
+
 #gcc #compilation #c #cpp #c++ #assembly #disassembly #sharedlibrary
 #staticlibrary
 

@@ -86,5 +86,26 @@ if [[ $file_cnt -ne 4 ]]; then
 fi
 ```
 
+- Functions and return values:
+```
+ARR=('one', 'two', 'three')
+
+isInArr() {
+  local ret=0
+  NUM=$1
+  for ELEM in "${ARR[@]}"; do
+    if [[ $ELEM == $NUM ]]; then
+      ret=1
+      break
+    fi
+  done
+  echo $ret
+}
+
+  if [[ $(isInArr $NUM) -eq 1 ]]; then
+    echo "is contained"
+  fi
+```
+
 #linux #shell #unix #scripting #text #text-manipulation #text-processing
 
