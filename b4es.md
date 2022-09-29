@@ -107,5 +107,12 @@ isInArr() {
   fi
 ```
 
+- Substrings:
+```
+MYSTR="hello, world!"
+echo ${MYSTR:7:5}
+# echos "world"
+```
+
 #linux #shell #unix #scripting #text #text-manipulation #text-processing
 
