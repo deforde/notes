@@ -85,6 +85,22 @@ export AR=$HOME'/tizen-studio/tools/arm-linux-gnueabi-gcc-9.2/bin/arm-linux-gnue
 
 -------------------------------------------------------------------------------
 
+- To create an archive of archives:
+Write an `ar` script, `libsuper.mr1`:
+```
+create libsuper.a
+addlib libone.a
+addlib libtwo.a
+save
+end
+```
+Then execute it:
+```
+ar -M < libsuper.mr1
+```
+
+-------------------------------------------------------------------------------
+
 #gcc #compilation #c #cpp #c++ #assembly #disassembly #sharedlibrary
 #staticlibrary
 
