@@ -55,7 +55,7 @@ if [[ "$1" == '--' ]]; then shift; fi
 
 - Get script dir:
 ```
-DIR=${0%/*}
+SCRIPT_DIR=$(realpath ${0%/*})
 ```
 
 - Loop over arrays:
