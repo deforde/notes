@@ -101,6 +101,13 @@ ar -M < libsuper.mr1
 
 -------------------------------------------------------------------------------
 
+- To inspect object code disassembly in Intel syntax:
+```
+objdump -drwC -Mintel foo.o
+```
+
+-------------------------------------------------------------------------------
+
 #gcc #compilation #c #cpp #c++ #assembly #disassembly #sharedlibrary
 #staticlibrary
 
