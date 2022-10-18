@@ -114,5 +114,8 @@ echo ${MYSTR:7:5}
 # echos "world"
 ```
 
+- Reference:
+https://devhints.io/bash
+
 #linux #shell #unix #scripting #text #text-manipulation #text-processing
 
