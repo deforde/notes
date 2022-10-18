@@ -7,7 +7,10 @@
 - `awk -v pat=$PATTERN '$0 ~ pat'` apply pattern from variable
 - `awk '{system($0)}'` run text as command
 
-# Analysing Jenkins build times
+## Extracting a list of undefined symbols from make:
+`make 2>&1 1>/dev/null | awk '/undefined reference to / { print $NF }`
+
+## Analysing Jenkins build times
 jenkins.awk:
 ```
 BEGIN {
