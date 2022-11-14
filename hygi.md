@@ -22,5 +22,8 @@ or
 `x/nfu addr`
 Where `n` is the count, `f` is the format (e.g. `u` for unsigned), and `u` is the size (`b`=byte, `h`=2xbytes, `w`=4xbytes, `g`=8xbytes).
 
+- Break upon loading of an `.so`:
+`catch load /path/to/lib.so`
+
 #gdb #asan #ubsan #coredumps #debugging #sanitisers
 
