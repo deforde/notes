@@ -114,6 +114,16 @@ echo ${MYSTR:7:5}
 # echos "world"
 ```
 
+- To write multi-line content to a file from the cmd line:
+```
+cat > test.c <<EOF
+#include <stdio.h>
+int main() {
+  puts("hello, world!");
+  return 0;
+}
+```
+
 - Reference:
 https://devhints.io/bash
 
