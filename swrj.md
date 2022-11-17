@@ -6,6 +6,7 @@
 - `awk '{for(i=1;i<=NF;i++) print $i}'` split list into lines
 - `awk -v pat=$PATTERN '$0 ~ pat'` apply pattern from variable
 - `awk '{system($0)}'` run text as command
+- `awk '$0 !~ /pattern/ {print $1}'` for everything that _doesn't_ match the pattern
 
 ## Extracting a list of undefined symbols from make:
 `make 2>&1 1>/dev/null | awk '/undefined reference to / { print $NF }`
