@@ -25,5 +25,9 @@ Where `n` is the count, `f` is the format (e.g. `u` for unsigned), and `u` is th
 - Break upon loading of an `.so`:
 `catch load /path/to/lib.so`
 
+- When debugging native code via the JVM ignore segfaults via:
+`handle SIGSEGV nostop noprint pass`
+This is necessary becuase the JVM uses speculative loads.
+
 #gdb #asan #ubsan #coredumps #debugging #sanitisers
 

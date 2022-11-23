@@ -125,6 +125,9 @@ int main() {
 EOF
 ```
 
+- Escape special chars:
+`$'\t`
+
 - Reference:
 https://devhints.io/bash
 
