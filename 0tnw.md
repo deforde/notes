@@ -19,5 +19,13 @@ See `man readelf` for more info.
 
 -------------------------------------------------------------------------------
 
+- To examine ELF symbol and section sizes:
+```
+nm --print-size --size-sort --radix d a.out
+size -A -d a.out
+```
+
+-------------------------------------------------------------------------------
+
 #linux #elf #c #c++ #unix #cpp #debugging #systems #low-level #object-file #objdump #readelf
 
