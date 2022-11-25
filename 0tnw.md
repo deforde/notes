@@ -24,6 +24,10 @@ See `man readelf` for more info.
 nm --print-size --size-sort --radix d a.out
 size -A -d a.out
 ```
+- To sort symbols by size:
+```
+readelf -s --wide --demangle --sym-base=10 lib.a | sort -k 3 -n
+```
 
 -------------------------------------------------------------------------------
 
