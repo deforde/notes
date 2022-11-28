@@ -31,5 +31,10 @@ readelf -s --wide --demangle --sym-base=10 lib.a | sort -k 3 -n
 
 -------------------------------------------------------------------------------
 
+- To examine the GLIBC dependencies of a binary:
+`objdump -T lib.so | grep GLIBC`
+
+-------------------------------------------------------------------------------
+
 #linux #elf #c #c++ #unix #cpp #debugging #systems #low-level #object-file #objdump #readelf
 
