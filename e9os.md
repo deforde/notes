@@ -4,7 +4,7 @@
 
 - Cookbook:
 ```
-TARGET_EXEC := my_executable
+TARGET_NAME := my_target
 
 BUILD_DIR := build
 SRC_DIRS := src
@@ -19,21 +19,21 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 CFLAGS := -Wall -Wextra -Wpedantic -Werror $(INC_FLAGS) -MMD -MP
 LDFLAGS :=
 
-EXECUTABLE := $(BUILD_DIR)/$(TARGET_EXEC)
+TARGET := $(BUILD_DIR)/$(TARGET_NAME)
 
 all: CFLAGS += -O3 -DNDEBUG
-all: executable
+all: target
 
 debug: CFLAGS += -g3 -D_FORTIFY_SOURCE=2
-debug: executable
+debug: target
 
 san: debug
 san: CFLAGS += -fsanitize=address,undefined
 san: LDFLAGS += -fsanitize=address,undefined
 
-executable: $(EXECUTABLE)
+target: $(TARGET)
 
-$(EXECUTABLE): $(OBJS)
+$(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $@ $(LDFLAGS)
 
 $(BUILD_DIR)/%.c.o: %.c
@@ -50,7 +50,7 @@ compdb: clean
 	@mv compile_commands.json build
 
 valgrind: debug
-	@valgrind ./$(EXECUTABLE)
+	@valgrind ./$(TARGET)
 
 -include $(DEPS)
 ```
