@@ -5,6 +5,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 IFS=$'\n\t'
+
+SCRIPT_DIR=$(realpath ${0%/*})
+cd $SCRIPT_DIR
 ```
 
 - Do something for each file/dir:
