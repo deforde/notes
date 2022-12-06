@@ -20,5 +20,10 @@ chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
 chown user:user ~/.ssh
 ```
 
+- Mount a remote filesystem via ssh:
+```
+sshfs remoteuser@remotehost:/local/mountpoint /remote/dir
+```
+
 #ssh #key #cryptography #security
 
