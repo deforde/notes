@@ -14,5 +14,13 @@ Pike's rules 1 and 2 restate Tony Hoare's famous maxim "Premature optimization i
 
 -------------------------------------------------------------------------------
 
+[Small Teams](https://stevepulec.com/posts/small/)
+
+-------------------------------------------------------------------------------
+
+[Bill Gates: I'm Literally Losing Sleep Over Java](https://www.techemails.com/p/bill-gates-im-literally-losing-sleep-over-java)
+
+-------------------------------------------------------------------------------
+
 #programming #coding #computer-science #software-engineering
 
