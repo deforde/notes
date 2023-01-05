@@ -22,5 +22,9 @@ Pike's rules 1 and 2 restate Tony Hoare's famous maxim "Premature optimization i
 
 -------------------------------------------------------------------------------
 
+[Ringelmann Effect](https://en.wikipedia.org/wiki/Ringelmann_effect)
+
+-------------------------------------------------------------------------------
+
 #programming #coding #computer-science #software-engineering
 
