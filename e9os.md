@@ -43,7 +43,7 @@ $(BUILD_DIR)/%.c.o: %.c
 .PHONY: clean compdb valgrind
 
 clean:
-	@rm -rf $(BUILD_DIR)
+	@rm -rf $(addprefix $(BUILD_DIR)/,$(filter-out compile_commands.json,$(shell ls $(BUILD_DIR))))
 
 compdb: clean
 	@bear -- $(MAKE) san
