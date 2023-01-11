@@ -117,6 +117,7 @@ https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html
 https://stevelosh.com/blog/2012/10/a-modern-space-cadet/
 https://jeelabs.org/2018/z80-zexall-bp/
 https://val.packett.cool/blog/ergonice/
+https://palaiologos.rocks/essays/posts/z80-emu/
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
