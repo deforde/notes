@@ -119,3 +119,6 @@ https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
 https://libs.suckless.org/libgrapheme/
 https://www.coops.tech/
+
+# hw docs:
+http://www.zilog.com/docs/z80/um0080.pdf
