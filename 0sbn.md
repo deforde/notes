@@ -115,6 +115,7 @@ https://ianthehenry.com/posts/how-to-learn-nix/nix-language/
 https://www.techemails.com/p/bill-gates-im-literally-losing-sleep-over-java
 https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html
 https://stevelosh.com/blog/2012/10/a-modern-space-cadet/
+https://jeelabs.org/2018/z80-zexall-bp/
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
