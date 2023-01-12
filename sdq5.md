@@ -26,38 +26,22 @@ Or:
 
 \tableofcontents
 
-\chapter{First Chapter}
-
 \section{First Section}
 
 \subsection{First Subsection}
 
-% \section*{Unnumbered Section}
+\section*{Unnumbered Section}
 
 % This is a comment.
 
 This word is \textbf{bold}.
 This word is \underline{underlined}.
-This word is in \testit{italics}.
-These can be \testbf{\testit{combined}.
+This word is in \textit{italics}.
+These can be \textbf{\textit{combined}}.
 
 This is an example of contextual \emph{emphasis}.
-\testit{This is an example of contextual \emph{emphasis}.}
-\testbf{This is an example of contextual \emph{emphasis}.}
-
-% \usepackage{graphicx}
-% \graphicspath{{images/}}
-% \includegraphics{my_image}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.75\textwidth]{mesh}
-    \caption{A nice plot.}
-    \label{fig:mesh1}
-\end{figure}
-
-This is a reference to figure \ret{fig:mesh1}.
-The referenced figure is on page \pageref{fig:mesh1}.
+\textit{This is an example of contextual \emph{emphasis}.}
+\textbf{This is an example of contextual \emph{emphasis}.}
 
 This is an unordered list:
 \begin{itemize}
