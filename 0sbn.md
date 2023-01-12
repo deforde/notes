@@ -120,6 +120,8 @@ https://val.packett.cool/blog/ergonice/
 https://palaiologos.rocks/essays/posts/z80-emu/
 https://blog.codinghorror.com/
 https://oona.windytan.com/posters/dialup-final.png
+https://upload.wikimedia.org/wikipedia/commons/3/37/Netfilter-packet-flow.svg
+https://ciechanow.ski/exposing-floating-point/
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
