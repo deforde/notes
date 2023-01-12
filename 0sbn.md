@@ -119,6 +119,7 @@ https://jeelabs.org/2018/z80-zexall-bp/
 https://val.packett.cool/blog/ergonice/
 https://palaiologos.rocks/essays/posts/z80-emu/
 https://blog.codinghorror.com/
+https://oona.windytan.com/posters/dialup-final.png
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
