@@ -129,6 +129,7 @@ https://www.youtube.com/watch?v=spUNpyF58BY
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
 https://libs.suckless.org/libgrapheme/
 https://www.coops.tech/
+https://www.fosslife.org/
 
 # hw docs:
 http://www.zilog.com/docs/z80/um0080.pdf
