@@ -122,6 +122,8 @@ https://blog.codinghorror.com/
 https://oona.windytan.com/posters/dialup-final.png
 https://upload.wikimedia.org/wikipedia/commons/3/37/Netfilter-packet-flow.svg
 https://ciechanow.ski/exposing-floating-point/
+https://blog.revolutionanalytics.com/2014/01/the-fourier-transform-explained-in-one-sentence.html
+https://www.youtube.com/watch?v=spUNpyF58BY
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
