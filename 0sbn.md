@@ -98,6 +98,7 @@ https://en.wikipedia.org/wiki/List_of_Unicode_characters
 https://floor796.com/#t0l2,739,361
 https://typesetinthefuture.com/2014/12/01/alien/amp/
 https://musicforprogramming.net/latest/
+https://mister-devel.github.io/MkDocs_MiSTer/
 
 # web:
 https://zwbetz.com/make-a-hugo-blog-from-scratch/
