@@ -126,6 +126,7 @@ https://ciechanow.ski/exposing-floating-point/
 https://blog.revolutionanalytics.com/2014/01/the-fourier-transform-explained-in-one-sentence.html
 https://www.youtube.com/watch?v=spUNpyF58BY
 https://danboland.net
+https://matklad.github.io
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html

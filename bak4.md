@@ -8,4 +8,5 @@
 - Deathsmiles (normal, Rosa)
 - Graze Counter GM (no miss, novice, type-7)
 - Natsuki Chronicles (arcade, easy)
+- Natsuki Chronicles (arcade, normal)
 - Touhou 8: Imperishable Night (easy, barrier team)
