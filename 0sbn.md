@@ -127,6 +127,7 @@ https://blog.revolutionanalytics.com/2014/01/the-fourier-transform-explained-in-
 https://www.youtube.com/watch?v=spUNpyF58BY
 https://danboland.net
 https://matklad.github.io
+https://interrupt.memfault.com/
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
