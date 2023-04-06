@@ -11,3 +11,4 @@
 - Natsuki Chronicles (arcade, normal)
 - Touhou 8: Imperishable Night (easy, barrier team)
 - Sisters Royale (arcade, easy, Sonay, no miss)
+- Sophstar (arcade, child, Reyka, original scoring)
