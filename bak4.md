@@ -13,3 +13,4 @@
 - Sisters Royale (arcade, easy, Sonay, no miss)
 - Sophstar (arcade, child, Reyka, original scoring)
 - Sophstar (arcade, beginner, Reyka, original scoring)
+- Strikers 1945 II (monkey, Hayate)
