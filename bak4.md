@@ -14,3 +14,7 @@
 - Sophstar (arcade, child, Reyka, original scoring)
 - Sophstar (arcade, beginner, Reyka, original scoring)
 - Strikers 1945 II (monkey, Hayate)
+- Battle Garegga (super easy, Miyamoto)
+- Battle Garegga (premium, Snail)
+- Dangun Feveron (super easy, type B, lock-on)
+- Dangun Feveron (feveron, type B, lock-on)
