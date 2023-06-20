@@ -128,6 +128,7 @@ https://www.youtube.com/watch?v=spUNpyF58BY
 https://danboland.net
 https://matklad.github.io
 https://interrupt.memfault.com/
+https://maximullaris.com/fhtagn.html
 
 # general interest:
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
